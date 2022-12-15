@@ -104,13 +104,13 @@ header img /*LOGO*/
     color: black;
     font-family: 'Belleza', sans-serif;
     text-align: center;
-    padding-bottom: 90px;
+    padding-bottom: 500px;
 }
 
 
 #relancering img
 {
-    padding-top: 90px;
+    padding-top: 300px;
     display: block;
     margin-left: auto;
     margin-right: auto;
@@ -121,28 +121,30 @@ header img /*LOGO*/
 {
     font-size: 5.5vw;
     font-weight: lighter;
-    margin-top: -40px;
+    margin-top: -150px;
 }
 #relancering h2
 {
     margin-top: 10px;
     font-size: 4.6vw;
     font-weight: lighter;
-    margin-bottom: 50px;
+    margin-bottom: 100px;
 }
 
 #relancering a
 {
-
     border-radius: 50px;
     cursor: pointer;
     text-decoration: none;
     color: black;
     background-color: white;
     font-size: 2.5vw;
-    padding: 20px 50px;
+    padding: 50px 100px;
     font-family: 'Orienta', sans-serif;
 }
+
+
+/*-------------REKLAME-------------------*/
 
 #forsidereklame
 {
@@ -161,9 +163,6 @@ header img /*LOGO*/
     color: black;
     text-align: start;
     font-weight:300;
-
-
-
 }
 
 #forsidereklame h2
@@ -186,53 +185,54 @@ header img /*LOGO*/
     float:right; 
     transform: rotateY(180deg);
     width: 8%;
-    top: -150px;
+    top: -400px;
     
 }
 
 #flexdiv
-{
+{   
     margin-top: 20px;
 }
+
 #flexdiv img
 {
     width: 50%;
 }
 
+
 #flexdiv p
 {
+    width: 50%;
     text-align: center;
     font-size: 2vw;
     font-family: 'Josefin Sans', sans-serif;
     margin-top: 30px;
- padding: 1px
+    padding: 1px;
 }
+
+/*-------------GIVEAWAY-------------------*/
 
 #konkurrence 
 {
+    position: relative;
     text-align: center;
 
 }
 
-
-video
+#greenvideo
 {
-    position: absolute;
-    object-fit: cover;
     width: 100%;
 }
-
 #videotekst h1{
+    text-align: center;
     color: black;
     font-size: 4vw;
     font-family: 'Josefin Sans', sans-serif;
-    text-transform: uppercase;
-    font-weight: bold;
-
 
 }
 
 #videotekst h2{
+    text-align: center;
     color: black;
     font-size: 2vw;
     font-family: 'Josefin Sans', sans-serif;
@@ -243,9 +243,9 @@ video
 {
     text-decoration: none;
     display: inline-block;
-    color:black;
+    color: white;
     font-size: 4vw;
-    font-family: 'Orienta', sans-serif;
+    font-family: 'Josefin Sans', sans-serif;
     border: 2px solid black;
     padding: 14px 70px;
     border-radius: 50px;
@@ -257,7 +257,6 @@ video
 
 footer
 {
-    margin-top: 50px;
     background-color: white;
     font-size: 4vw;
     font-family: 'Josefin Sans', sans-serif;
