@@ -3,10 +3,11 @@
     margin: 0;
     padding: 0;
 }
+  /*----------HEADER---------- */
 
 header
-{
-    text-align: center;
+{    padding-top:10px;
+
     background-image: linear-gradient(
         to right,
         #e1d2bb 0%,
@@ -16,33 +17,80 @@ header
     );
 }
 
-header nav
-{
-    padding-top: 50px;
-    padding-bottom: 50px;
-}
-header nav a
-{   
-    position:relative;
-    font-family: 'Belleza', sans-serif;
-    letter-spacing: 1px;
-    color: black;
-    text-decoration: none;
-    text-transform: uppercase;
-    font-size: 3vw;
-    padding-left: 40px;
-    padding-right: 40px;
-
-}
-
-header img
-{
-    margin-top:10px;
-    float: left;
+header img /*LOGO*/
+{ 
+    position: absolute;
+    left: 0; 
     width: 8%;
 }
 
-main
+#navLaptop, header nav a
+{
+  display: flex;
+  justify-content: space-evenly;
+  align-content: center;
+  margin: auto;
+  font-family: 'Belleza', sans-serif;
+  letter-spacing: 1px;
+  color: black;
+  text-decoration: none;
+  text-transform: uppercase;
+  font-size: 3vw;
+}
+
+#navLaptop
+{
+    padding-left: 65px;
+}
+
+  /* ----------Dropdown---------- */
+
+  .dropbtn
+  {
+    color: black;
+    font-family: 'Belleza', sans-serif;
+    text-transform: uppercase;
+    cursor: pointer;
+  } 
+  .dropdown
+{
+    padding-top: 5vh;
+    display: inline-block;
+    text-align: center;
+
+}
+  
+  .dropdown-content
+  {
+    display: none;
+    position: absolute;
+    background-color:white
+
+}
+  
+  .dropdown-content a {    
+    text-decoration: none;
+    display: block;
+    font-size: 1.5vw;
+    padding: 2vh 3vh;
+}
+  
+  .dropdown-content a:hover
+{
+    background-image: linear-gradient(rgb(0 0 0/5%) 0 0);
+}
+  
+.dropdown:hover .dropdown-content {
+    display: block; 
+}
+  
+  .dropdown:hover .dropbtn, header nav a:hover{ 
+    text-decoration: underline;
+}
+
+
+/*----------MAIN----------------*/
+#relancering
 {
     background-image: linear-gradient(
         to right,
@@ -52,11 +100,123 @@ main
         #c8b496 100%
     );
 
+    text-transform: uppercase;
+    color: black;
+    font-family: 'Belleza', sans-serif;
+    text-align: center;
+    padding-bottom: 90px;
 }
-main img
+
+
+#relancering img
 {
-    width: 40%;
+    padding-top: 90px;
     display: block;
     margin-left: auto;
     margin-right: auto;
+    width: 60%;
 }
+
+#relancering h1
+{
+    font-size: 6vw;
+    font-weight: lighter;
+    margin-top: -40px;
+}
+#relancering h2
+{
+    margin-top: 10px;
+    font-size: 4vw;
+    font-weight: lighter;
+    margin-bottom: 50px;
+}
+
+#relancering a
+{
+
+    border-radius: 50px;
+    cursor: pointer;
+    text-decoration: none;
+    color: black;
+    background-color: white;
+    font-size: 3vw;
+    padding: 20px 50px;
+    font-family: 'Orienta', sans-serif;
+}
+
+#forsidereklame
+{
+    background-color: white;
+    padding-left: 10vh;
+    margin-top: 10vh;
+    background-image: url(images/sortlogolille.png)no-repeat right; 
+    background-size: cover;
+    margin-bottom: 10vh;
+}
+#forsidereklame h1
+{
+    font-family: 'Josefin Sans', sans-serif;
+    font-size: 3.7vw;
+    text-transform: uppercase;
+    color: black;
+    text-align: start;
+    font-weight:300;
+
+
+
+}
+
+#forsidereklame h2
+{
+    font-family: 'Josefin Sans', sans-serif;
+    font-weight:1000;
+    font-size: 3.5vw;
+    text-transform: uppercase;
+    color: black;
+    text-align: start;
+}
+#forsidereklame div
+{
+    display: flex;
+}
+
+#rightlogo
+{
+    position: relative;
+    float:right; 
+    transform: rotateY(180deg);
+    width: 8%;
+    top: -150px;
+    
+}
+
+#flexdiv
+{
+    margin-top: 20px;
+}
+#flexdiv img
+{
+    width: 50%;
+}
+
+#flexdiv p
+{
+    text-align: center;
+    font-size: 2vw;
+    font-family: 'Josefin Sans', sans-serif;
+    margin-top: 30px;
+ padding: 1px
+}
+
+#konkurrence
+{
+    overflow: hidden;
+    display: block;
+  margin-left: auto;
+  margin-right: auto;
+
+}
+
+
+
+

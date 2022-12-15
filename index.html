@@ -9,23 +9,70 @@
     <link rel="preconnect" href="https://fonts.googleapis.com">
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
     <link href="https://fonts.googleapis.com/css2?family=Belleza&display=swap" rel="stylesheet">
-    
-    
-</head>
+    <link href="https://fonts.googleapis.com/css2?family=Orienta&display=swap" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css2?family=Josefin+Sans:wght@300&display=swap" rel="stylesheet">
 
+</head>
 <body>
+
     <header>
-      <a href="index.html"><img src="images/sortlogolille.png"></a>
-        <nav>
-            <a href="medova.html">Om medova</a>
-            <a href="opskrifter.html">Opskrifter</a>
-            <a href="konkurrence.html">konkurrence</a>
-        </nav>
+        <a href="index.html"><img src="images/sortlogolille.png" alt="logo"></a>
+        
+        <nav id="navLaptop">
+                <div class="dropdown">  <!-----DROPDOWN BOKS------>
+                    <div class="dropbtn">Om medova</div>
+                    <div class="dropdown-content">
+                        <a href="medovate.html">Medova te</a>
+                        <a href="medovate.html">relancering 2023</a>
+                    </div>
+                </div>
+
+                <div class="dropdown">   <!-----DROPDOWN BOKS------>
+                    <div class="dropbtn">opskrifter</div>
+                    <div class="dropdown-content">
+                        <a href="iste.html">Hjemmelavet iste</a>
+                        <a href="bubbletea.html">Bubble tea</a>
+                    </div>
+                </div>
+    
+                <div class="dropdown">      <!--satte den ind i en dropdown, da det ellers drillede..-->
+                    <a href="konkurrence.html">konkurrence</a>
+                </div>
+               
+            </nav>
+        </section>
     </header>
 
     <main>
+        <section id="relancering">
+            <img src="images/forside.png" alt="frontbillede"> 
+            <h1> Medova 2023</h1>
+            <h2>Relancering</h2>
+            <a href="medova.html">læs mere</a>
+
         </section>
-        <img src="images/forside.png"> 
+
+        <section id="forsidereklame">
+            <h1>Er du udkørt kl.15?..</h1> <br>
+            <h2>medova te ta'r trætheden</h2>
+            <img id=rightlogo src="images/sortlogolille.png" alt="logo" ></a>
+
+            <div id="flexdiv"> 
+            <img src="images/tilsiden.png" alt="sidebillede">    
+            <p>
+                En klassisk 100% sort te fra Kenya, Ceylon og Indonesien er MEDOVA te fra de bedste te-distrikter i verden, lavet på de fineste håndplukkede topskudsteer.
+                Teen kommer i en praktisk tebrev, med 25 breve i én pakke. <br> Teen er klar til servering efter 2-3 minutters trække-tid, så der nemt og hurtigt kan laves en god kop sort te uden for meget besvær.
+                <br> Sæt dig ned, nyd din te og lad MEDOVA ta' trætheden.
+            </p>
+        </div>
+        </section>
+
+        <section id="konkurrence">
+            <video width="1920px" height="1000px"  autoplay loop muted src="images/video.mp4"></video>
+
+        
+
+        </section>
     </main>
 
     <footer>
