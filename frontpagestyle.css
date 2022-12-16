@@ -5,15 +5,9 @@
 }
   /*----------HEADER---------- */
 
-header
-{
-    padding-top:10px;
-    background-color: white;
-}
 
 header
-{    padding-top:10px;
-
+{  
     background-image: linear-gradient(
         to right,
         #e1d2bb 0%,
@@ -21,6 +15,7 @@ header
         #c8b496 50%,  
         #c8b496 100%
     );
+
 }
 
 header img, #forsideheader img /*LOGO*/
@@ -44,10 +39,7 @@ header img, #forsideheader img /*LOGO*/
   font-size: 3vw;
 }
 
-#navLaptop
-{
-    padding-left: 65px;
-}
+
 
   /* ----------Dropdown---------- */
 

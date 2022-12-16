@@ -6,8 +6,7 @@
   /*---------------HEADER--------------- */
 
 header
-{   padding-top:10px;
-    background-color: white;
+{  background-color: white;
     padding-bottom:40px;
 }
 
@@ -32,10 +31,6 @@ header img, #forsideheader img /*LOGO*/
   font-size: 3vw;
 }
 
-#navLaptop
-{
-    padding-left: 65px;
-}
 
   /* ----------Dropdown---------- */
 
@@ -87,12 +82,12 @@ header img, #forsideheader img /*LOGO*/
 main
 {
     background-color: #EAE1D9;
-    padding-left: 70px;
-    padding-right: 70px;
+    padding-left: 80px;
+    padding-right: 80px;
 }
 
 main h1
-{   padding-top: 50px;
+{   padding-top: 60px;
     text-align: center;
     font-family: 'Josefin Sans', sans-serif;
     font-weight:1000;
@@ -141,34 +136,83 @@ main h2
 width: 50%;
 height: 400px;}
 
-#naeringsindhold div 
-{display: flex;
-flex-direction: row;
-}
-#indhold h3
-{
-    font-size: 2.5vw;
-    font-family: 'Orienta', sans-serif;
-    color: black;
-    font-weight: bold;
-}
-
 #indhold
-{width: 50%;}
+{text-align: left;}
 
-#formaal
-{width: 50%;
-flex-direction: column;}
+#tal
+{text-align: right;}
+ 
+#naering 
+{
+margin-top: 20px;
+display: flex;
+justify-content: center;
+width: 100%;
+}
 
-table {
-    font-family: 'Orienta', sans-serif;
+#naeringoverskrift
+{
+  text-align: center;
+  font-size: 2.5vw;
+  font-family: 'Orienta', sans-serif;
+  margin-top: 30px;
 
-    border-collapse: collapse;
-  }
+
+}
+#naering p
+{
   
-  td{
-    border: 1px dotted black;
-    text-align: left;
-    padding: 8px;
+  font-size: 1.7vw;
+  font-family: 'Orienta', sans-serif;
+  padding:5px;
+
+}
+
+#formaal p
+{
+  margin-top: 40px;
+
+  text-align: center;
+  font-size: 1.8vw;
+  font-family: 'Josefin Sans', sans-serif;
+}
+
+
+#formaal div
+{
+  padding-top: 20px;
+  padding-bottom: 50px;
+
+  display: flex;
+  justify-content: center;
+}
+#formaal img
+{
+display: block;
+margin: auto;
+padding:auto;
+width:60%;
+}
+
+
+/*------FOOTER---------------*/
+footer
+{
+    margin-top: 10vh;
+    margin-bottom:10vh;
+    background-color: white;
+    text-align: center;
+
+}
+footer a
+{
+    text-decoration: none;
     font-size: 2vw;
-  }
+    font-family: 'Dosis', sans-serif;
+    color: black;
+    text-transform: uppercase;
+    font-family: 'Dosis', sans-serif;
+    line-height: 8vh;
+}
+/*--------------------*/
+
