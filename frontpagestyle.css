@@ -1,0 +1,336 @@
+*
+{
+    margin: 0;
+    padding: 0;
+}
+  /*----------HEADER---------- */
+
+header
+{
+    padding-top:10px;
+    background-color: white;
+}
+
+header
+{    padding-top:10px;
+
+    background-image: linear-gradient(
+        to right,
+        #e1d2bb 0%,
+        #e1d2bb 50%,
+        #c8b496 50%,  
+        #c8b496 100%
+    );
+}
+
+header img, #forsideheader img /*LOGO*/
+{ 
+    position: absolute;
+    left: 0; 
+    width: 8%;
+}
+
+#navLaptop, header nav a
+{
+  display: flex;
+  justify-content: space-evenly;
+  align-content: center;
+  margin: auto;
+  font-family: 'Dosis', sans-serif;
+  letter-spacing: 1px;
+  color: black;
+  text-decoration: none;
+  text-transform: uppercase;
+  font-size: 3vw;
+}
+
+#navLaptop
+{
+    padding-left: 65px;
+}
+
+  /* ----------Dropdown---------- */
+
+  .dropbtn
+  {
+    color: black;
+    font-family: 'Dosis', sans-serif;
+    text-transform: uppercase;
+    cursor: pointer;
+  } 
+  .dropdown
+{
+    padding-top: 5vh;
+    display: inline-block;
+    text-align: center;
+
+}
+  
+  .dropdown-content
+  {
+    display: none;
+    position: absolute;
+    background-color:white
+
+}
+  
+  .dropdown-content a {    
+    text-decoration: none;
+    display: block;
+    font-size: 1.5vw;
+    padding: 2vh 2.5vh;
+}
+  
+  .dropdown-content a:hover
+{
+    background-image: linear-gradient(rgb(0 0 0/5%) 0 0);
+}
+  
+.dropdown:hover .dropdown-content {
+    display: block; 
+}
+  
+  .dropdown:hover .dropbtn, header nav a:hover{ 
+    text-decoration: underline;
+}
+
+
+/*----------MAIN----------------*/
+#relancering
+{
+    background-image: linear-gradient(
+        to right,
+        #e1d2bb 0%,
+        #e1d2bb 50%,
+        #c8b496 50%,  
+        #c8b496 100%
+    );
+
+    text-transform: uppercase;
+    color: black;
+    font-family: 'Belleza', sans-serif;
+    text-align: center;
+    padding-bottom: 500px;
+}
+
+
+#relancering img
+{
+    padding-top: 300px;
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    width: 50%;
+}
+
+#relancering h1
+{
+    font-size: 5.5vw;
+    font-weight: lighter;
+    margin-top: -150px;
+}
+#relancering h2
+{
+    margin-top: 10px;
+    font-size: 4.6vw;
+    font-weight: lighter;
+    margin-bottom: 100px;
+}
+
+#relancering a
+{
+    border-radius: 50px;
+    cursor: pointer;
+    text-decoration: none;
+    color: black;
+    background-color: white;
+    font-size: 2.5vw;
+    padding: 50px 100px;
+    font-family: 'Orienta', sans-serif;
+}
+
+
+/*-------------REKLAME-------------------*/
+
+#forsidereklame
+{
+    background-color: white;
+    padding-left: 10vh;
+    margin-top: 10vh;
+    background-image: url(images/sortlogolille.png)no-repeat right; 
+    background-size: cover;
+    margin-bottom: 10vh;
+}
+#forsidereklame h1
+{
+    font-family: 'Josefin Sans', sans-serif;
+    font-size: 3.7vw;
+    text-transform: uppercase;
+    color: black;
+    text-align: start;
+    font-weight:300;
+}
+
+#forsidereklame h2
+{
+    font-family: 'Josefin Sans', sans-serif;
+    font-weight:1000;
+    font-size: 3.5vw;
+    text-transform: uppercase;
+    color: black;
+    text-align: start;
+}
+#forsidereklame div
+{
+    display: flex;
+}
+
+#rightlogo
+{
+    position: relative;
+    float:right; 
+    transform: rotateY(180deg);
+    width: 8%;
+    top: -400px;
+    
+}
+
+#flexdiv
+{   
+    margin-top: 100px;
+}
+
+#flexdiv img
+{
+    padding-left: 100px;
+    width: 45%;
+}
+#flexdiv div
+{
+    width:10%;
+}
+#flexdiv p
+{
+    width: 40%;
+    text-align: center;
+    font-size: 1.7vw;
+    font-family: 'Josefin Sans', sans-serif;
+    margin-top: 30px;
+    padding: 1px;
+}
+
+/*-------------GIVEAWAY-------------------*/
+
+/* Bruger flexbox til at centrere indholdet i midten, smart ift. responsiv design. 
+Da videoen er postion absolute bliver den ikke påvirket at koden. Højden er sat til 70vh så den er 70% af viewport height.
+Kan være smart, men også lidt dumt hvis skærmen lige pludselig er meget høj. */
+#konkurrence
+{
+    height: 70vh;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    text-align: center;
+}
+
+/* Får samme højde som hele sektionen så det passer sammen. Bruger postition absolute og right:0, left:0 til at placere videoen i midten.
+z-index:-1 gør at den bliver vist bagved det øvrige content  */
+video
+{
+    height: 70vh;
+    position: absolute;
+    left: 0;
+    right: 0;
+    object-fit: cover;
+    width: 100%;
+    z-index: -1;
+}
+
+#konkurrence h1{
+    color: white;
+    font-size: 5.5vw;
+    font-family: 'Dosis', sans-serif;
+    text-transform: uppercase;
+    font-weight: bold;
+    padding: 3px;
+    letter-spacing: 2px;
+}
+
+#konkurrence h2{
+    color: white;
+    font-size: 2.5vw;
+    font-family: 'Dosis', sans-serif;
+    font-weight: lighter;
+    letter-spacing: 2px;
+
+}
+
+#konkurrence a
+{
+    width: fit-content;
+    margin: auto;
+    text-decoration: none;
+    display: inline-block;
+    color:white;
+    font-size: 4vw;
+    font-family: 'Dosis', sans-serif;
+    border: 2px solid white;
+    padding: 14px 70px;
+    border-radius: 50px;
+    margin-top: 150px;
+    text-transform: uppercase;
+}
+
+
+footer
+{
+    margin-top: 10vh;
+    margin-bottom:10vh;
+    background-color: white;
+    text-align: center;
+
+}
+footer a
+{
+    text-decoration: none;
+    font-size: 2vw;
+    font-family: 'Dosis', sans-serif;
+    color: black;
+    text-transform: uppercase;
+    font-family: 'Dosis', sans-serif;
+    line-height: 8vh;
+}
+
+/*
+.logofooter
+{
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    position: relative;
+
+}
+
+#logofootv 
+{ 
+    left: 0; 
+    width: 8%;
+}
+
+#logofooth 
+{ 
+    width: 8%;
+    right:0; 
+    transform: rotateY(180deg);
+}
+/*
+*/
+
+
+
+
+
+
+
+
+
