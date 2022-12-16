@@ -102,13 +102,13 @@ header img, #forsideheader img /*LOGO*/
     color: black;
     font-family: 'Belleza', sans-serif;
     text-align: center;
-    padding-bottom: 500px;
+    padding-bottom: 150px;
 }
 
 
 #relancering img
-{
-    padding-top: 300px;
+{    padding-top: 100px;
+
     display: block;
     margin-left: auto;
     margin-right: auto;
@@ -119,7 +119,8 @@ header img, #forsideheader img /*LOGO*/
 {
     font-size: 5.5vw;
     font-weight: lighter;
-    margin-top: -150px;
+    margin-top: -50px;
+    
 }
 #relancering h2
 {
@@ -137,7 +138,7 @@ header img, #forsideheader img /*LOGO*/
     color: black;
     background-color: white;
     font-size: 2.5vw;
-    padding: 50px 100px;
+    padding: 20px 50px;
     font-family: 'Orienta', sans-serif;
 }
 
@@ -183,7 +184,7 @@ header img, #forsideheader img /*LOGO*/
     float:right; 
     transform: rotateY(180deg);
     width: 8%;
-    top: -400px;
+    top: -150px;
     
 }
 
@@ -269,7 +270,7 @@ video
     border: 2px solid white;
     padding: 14px 70px;
     border-radius: 50px;
-    margin-top: 150px;
+    margin-top: 110px;
     text-transform: uppercase;
 }
 
