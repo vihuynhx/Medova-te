@@ -140,3 +140,35 @@ main h2
 {
 width: 50%;
 height: 400px;}
+
+#naeringsindhold div 
+{display: flex;
+flex-direction: row;
+}
+#indhold h3
+{
+    font-size: 2.5vw;
+    font-family: 'Orienta', sans-serif;
+    color: black;
+    font-weight: bold;
+}
+
+#indhold
+{width: 50%;}
+
+#formaal
+{width: 50%;
+flex-direction: column;}
+
+table {
+    font-family: 'Orienta', sans-serif;
+
+    border-collapse: collapse;
+  }
+  
+  td{
+    border: 1px dotted black;
+    text-align: left;
+    padding: 8px;
+    font-size: 2vw;
+  }
