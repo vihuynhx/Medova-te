@@ -144,10 +144,15 @@ height: 400px;}
  
 #naering 
 {
-margin-top: 20px;
+padding-top: 10px;
+padding-bottom: 10px;
 display: flex;
 justify-content: center;
-width: 100%;
+width: 450px;
+height: 200px;
+margin-left: auto;
+margin-right: auto;
+background-color:#e1d2bb;
 }
 
 #naeringoverskrift
@@ -156,6 +161,7 @@ width: 100%;
   font-size: 2.5vw;
   font-family: 'Orienta', sans-serif;
   margin-top: 30px;
+  margin-bottom: 20px;
 
 
 }
@@ -197,23 +203,35 @@ width:60%;
 
   /*-----------------OM MEDOVA---RELANCERING------------------------------------------------------------------------------- */
 
-  #nytdesign
+  .mindreh1
   {
     font-size: 5vw;
   }
 
+  #istepic
+  {
+    padding-top: 30px;
+    display: block;
+    margin: auto;
+    padding:auto;
+    width: 40%;
+    padding-bottom: 30px;
+
+  }
 
   
   main h3
   {   
     padding-top: 30px;
-      text-align: center;
-      font-family: 'Josefin Sans', sans-serif;
-      font-size: 2vw;
-      color: black;
-      font-weight: lighter;
-      padding-left: 20%;
-      padding-right: 20%;
+    padding-bottom: 30px;
+    text-align: center;
+    font-family: 'Josefin Sans', sans-serif;
+    font-size: 2vw;
+    color: black;
+    font-weight: lighter;
+    padding-left: 20%;
+    padding-right: 20%;
+    line-height: 1.2;
   }
 
   #refleks 
@@ -222,9 +240,71 @@ width:60%;
     margin: auto;
     padding: auto;
     align-content: center;
-    width: 80%;
+    width: 70%;
   }
 
+#tekstboks
+{
+  text-align: center;
+  width: 900px;
+  margin: auto;
+  padding: auto;
+  margin-top: -70px;
+}
+
+#tekstboks p
+{
+  font-size: 1.7vw;
+  font-family: 'Josefin Sans', sans-serif;
+  padding: 20px;
+  line-height: 1.6;
+}
+
+#kopbillede
+{
+
+  width: 80%;
+  display: block;
+    margin: auto;
+    padding: auto;
+    padding-bottom: 60px;
+
+}
+
+  /*-----------------HJEMMELAVET ISTE------------------------------------------------------------------------------- */
+
+#isteingrediens
+{
+  text-align: center;
+  margin: auto;
+  padding: auto;
+  width: 590px;
+  background-color:#e1d2bb;
+}
+
+#isteingrediens h1
+{
+  padding-top: -10px;
+  font-size: 3vw;
+  font-weight: bold;
+}
+
+#isteingrediens ul
+{
+  list-style-position: inside;
+  text-align: left;
+  justify-content: center;
+
+}
+#isteingrediens div
+{
+  display: flex;
+  justify-content: center;
+}
+#isteingrediens h2
+{
+  font-size: 1.5vw;
+}
 /*------FOOTER---------------*/
 footer
 {
