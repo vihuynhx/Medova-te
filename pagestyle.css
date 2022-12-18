@@ -97,11 +97,10 @@ main h1
 }
 
 main h2
-{   
-    padding-top: -100px;
+{   margin-top: -25px;
     text-align: center;
     font-family: 'Josefin Sans', sans-serif;
-    font-size: 4vw;
+    font-size: 3.5vw;
     text-transform: uppercase;
     color: black;
     font-weight: lighter;
@@ -222,11 +221,11 @@ width:60%;
   
   main h3
   {   
-    padding-top: 30px;
-    padding-bottom: 30px;
+    padding-top: 20px;
+    padding-bottom: 50px;
     text-align: center;
     font-family: 'Josefin Sans', sans-serif;
-    font-size: 2vw;
+    font-size: 1.7vw;
     color: black;
     font-weight: lighter;
     padding-left: 20%;
@@ -275,14 +274,15 @@ width:60%;
 
 #isteingrediens
 {
-  text-align: center;
+  
   margin: auto;
   padding: auto;
   width: 50vh;
   background-color:#e1d2bb;
+  height: 35vh;
 }
 
-#isteingrediens h4
+#isteingrediens h4, #bubbleingrediens h4
 {
   padding-top: 20px;
   text-align: center;
@@ -292,7 +292,7 @@ width:60%;
   font-family: 'Playfair Display', serif;
 }
 
-#isteingrediens ul
+#isteingrediens ul, #bubbleingrediens ul
 {
   list-style-position: inside;
   text-align: left;
@@ -301,47 +301,94 @@ width:60%;
   gap:20px;
 }
 
-#isteingrediens ul li
+#isteingrediens ul li, #bubbleingrediens ul li
 {
   font-family: 'Josefin Sans', sans-serif;
-  font-size: 1.6vw;
+  font-size: 1.5vw;
   margin: 10px 0;
 }
 
 
-
 #isteingrediens div
 {
+
   display: flex;
   justify-content: center;
   padding-bottom: 20px;
 }
-#isteingrediens h2
+#isteingrediens h2, #bubbleingrediens h2
 {
-  padding: 10px;
+  padding: 5px;
   font-size: 1.2vw;
   padding-bottom: 20px;
+  margin-top: 5px;
 
 }
 
-#howtoiste 
+#howtoiste
 {
-  display: flex;
-  justify-content: center;
-  padding-top: 50px;
-  padding-bottom: 100px;
+  padding-top: 30px;
 }
 
-
-
-#howtoiste ul li
+#howtoiste ul li, #howtoboba ul li
 {
   margin:0 0px 30px 0;   
   font-family: 'Josefin Sans', sans-serif;
-  font-size: 1.9vw;
-  font-weight: bold;
+  font-size: 1.8vw;
   list-style-type: decimal;
+  font-weight: bold;
+}
 
+
+#alt
+{ 
+  display: flex;
+  padding-bottom:80px;
+  gap:-40px;
+}
+  /*-----------------BOBA ------------------------------------------------------------------------------- */
+
+#bubbleingrediens
+{
+  text-align: center;
+  margin: auto;
+  padding: auto;
+  background-color:#e1d2bb;
+}
+
+#ingrediensliste p
+{
+  font-family: 'Playfair Display', serif;
+  font-size: 1.5vw;
+  text-align: left;
+}
+
+#ingrediensliste 
+{
+  display: flex;
+justify-content: space-evenly;
+padding-bottom: 20px;
+}
+
+#howtoboba 
+{
+  padding-top:50px;
+  width: 100vh;
+  display: block;
+  text-align: left;
+  padding: auto;
+  margin:auto;
+  padding-bottom:50px;
+
+}
+
+#howtoboba p
+{
+
+  margin:0 0px 30px 0;   
+  font-family: 'Josefin Sans', sans-serif;
+  font-size: 1.8vw;
+  text-align: center;
 }
 
 /*------FOOTER---------------*/
@@ -365,3 +412,6 @@ footer a
 }
 /*--------------------*/
 
+#konkurrencebody{
+  background-image: url("images/konkurrencebg.jpg");
+}
