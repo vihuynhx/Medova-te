@@ -294,30 +294,6 @@ footer a
     line-height: 8vh;
 }
 
-/*
-.logofooter
-{
-    display: flex;
-    flex-direction: row;
-    justify-content: center;
-    position: relative;
-
-}
-
-#logofootv 
-{ 
-    left: 0; 
-    width: 8%;
-}
-
-#logofooth 
-{ 
-    width: 8%;
-    right:0; 
-    transform: rotateY(180deg);
-}
-/*
-*/
 
 
 

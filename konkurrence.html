@@ -5,7 +5,7 @@
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Vind en tur en Indoneisun</title>
-    <link rel="stylesheet" href="giveawaystyle.css">
+    <link rel="stylesheet" href="pagestyle.css">
     <link rel="preconnect" href="https://fonts.googleapis.com">
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
     <link href="https://fonts.googleapis.com/css2?family=Orienta&display=swap" rel="stylesheet">
@@ -16,7 +16,7 @@
 </head>
 
 <body id="konkurrencebody">
-    <header id="konkurrencebody">
+    <header class="konkurrencebg">
         <a href="index.html"><img src="images/sortlogolille.png" alt="logo"></a>
         
         <nav id="navLaptop">
@@ -36,12 +36,40 @@
                     </div>
                 </div>
     
-                <div class="dropdown">      <!--satte den ind i en dropdown, da det ellers drillede..-->
+                <div class="dropdown">      <!--satte den ind i en dropdown, da css ellers drillede..-->
                     <a href="konkurrence.html">konkurrence</a>
                 </div>
-               
             </nav>
         </section>
     </header>
+    <main class="konkurrencebg">
+            <section id="konkurrence">
+                <h1>konkurrence</h1>
+                <h2>Vind en rejse til West Java, Indonesien</h2>
+                <p>I samarbejde med Unilever, får man chancen for at vinde en oplevelsesrejse til West Java, Indonesien. <br>
+                    Her får du muligheden for at besøge vores teplantager, hvor du får lov til at dufte og smage alle former for te. <br>
+                    En oplevelse for livet
+                </p>
+                    <div>
+                        <h5>Alt du skal gøre, er at skrive nedenunder hvor MEDOVAs te kommer fra</h5>
+                        <p>Personer under 18 år skal ledsages af en voksen. <br> Flere betingelser bliver sendt på mail</p>
+                    </div>
+            </section> 
+
+            <section> <!--https://www.w3schools.com/css/css_form.asp-->
+                    <form action="/action_page.php">
+                      <label for="fname">Fulde Navn</label>
+                      <input type="text" id="fname" name="navn" placeholder="navn">
+                  
+                      <label for="lname">Indtast e-mail</label>
+                      <input type="text" id="lname" name="mail" placeholder="E-mail">
+
+                      <textarea>Dit svar...</textarea>
+
+                      <input type="submit" value="Submit">
+                    </form>
+            </section>
+    </main>
+
 </body>
 </html>
