@@ -295,7 +295,118 @@ footer a
     line-height: 8vh;
 }
 
+/*------------------------------RESPONSIVE--------------------------------------------------------------------------*/
 
+
+/*LAPTOP RESPONSIVE*/
+@media screen and (min-width: 651px)
+{
+    /* Skjul mobilmenuen.*/
+    #navMobil
+    {
+        display:none;
+    }
+    #headerlogomobil, #mobilkvinde, #mobilnyhed
+    {
+        display:none;
+    }
+
+    .om h1
+    {
+        display: flex;
+        color: #bb7700;
+        font-size: 7vw;
+        font-family: social-gothic-rough, sans-serif;
+        font-weight: 700;
+        font-style: normal;
+        justify-content: center;
+        white-space: nowrap;
+    }
+
+}
+
+
+/*MOBIL RESPONSIVE*/
+@media only screen and (max-width: 650px)
+{
+   #navLaptop
+    {
+        display: none;
+    }
+
+    #navMobil
+    {
+        margin-top: 2%;
+        float:right;
+        padding-right: 2%;
+    }
+
+    header img, #forsidereklame img
+    {
+        padding-top: 2%;
+        width: 15%;
+    }
+
+    #relancering img
+    {
+        width: 95%;
+    }
+    #relancering h1
+    {
+        padding-top: 2%;
+        font-size: 10vw;
+    }
+
+    #relancering h2
+    {
+        font-size: 6.5vw;
+    }
+
+    #relancering h2, #relancering a
+    {
+        font-size: 6.5vw;
+    }
+
+    #flexdiv
+    {
+        flex-direction: column;
+        width: 100%;
+        margin-left: -5vh;
+    }
+
+    #forsidereklame h1, #forsidereklame h2
+    {
+        margin-left: -5vh;
+        font-size: 5vw;
+        text-align: left;
+    }
+
+    #flexdiv img
+    {
+        width: 80%;
+        margin-left: -5vh;
+    }
+
+    #flexdiv p, #videotekst h2
+    {
+        font-size: 4vw;
+        width: 100%;
+    }
+
+    #videotekst a, footer a
+    {
+        font-size: 6vw;
+    }
+    
+
+ 
+
+
+}
+
+/*MELLEMSKÆRM RESPONSIVE*/
+@media only screen and (min-width: 651px) and (max-width: 1023px ) 
+{}
 
 
 

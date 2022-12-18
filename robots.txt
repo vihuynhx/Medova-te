@@ -1,0 +1,4 @@
+User-agent: *
+Disallow: /kontakt os/
+Disallow: /administrer samtykke/
+Disallow: /Cookie- og privatspolitik/
