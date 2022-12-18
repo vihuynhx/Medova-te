@@ -1,7 +1,7 @@
 *
 {
-    margin: 0;
-    padding: 0;
+  margin: 0;
+  padding: 0;
 }
   /*---------------HEADER--------------------------------------------------------------- */
 
@@ -16,9 +16,9 @@ header
 
 header img, #forsideheader img /*LOGO*/
 { 
-    position: absolute;
-    left: 0; 
-    width: 8%;
+  position: absolute;
+  left: 0; 
+  width: 8%;
 }
 
 #navLaptop, header nav a
@@ -32,7 +32,7 @@ header img, #forsideheader img /*LOGO*/
   color: black;
   text-decoration: none;
   text-transform: uppercase;
-  font-size: 3vw;
+  font-size: 2.5vw;
 }
 
 
@@ -46,12 +46,11 @@ header img, #forsideheader img /*LOGO*/
     cursor: pointer;
   } 
   .dropdown
-{
+  {
     padding-top: 5vh;
     display: inline-block;
     text-align: center;
-
-}
+  }
   
   .dropdown-content
   {
@@ -59,104 +58,113 @@ header img, #forsideheader img /*LOGO*/
     position: absolute;
     background-color:transparent;
     background-image: linear-gradient(rgb(0 0 0/2%) 0 0);
-
-}
+  }
   
-  .dropdown-content a {    
+  .dropdown-content a
+  {    
     text-decoration: none;
     display: block;
-    font-size: 1.5vw;
-    padding: 2vh 2.5vh;
-}
+    font-size: 1.3vw;
+    padding: 1.4vh 1.2vh;
+  }
   
   .dropdown-content a:hover
 {
-    background-image: linear-gradient(rgb(0 0 0/5%) 0 0);
+  background-image: linear-gradient(rgb(0 0 0/5%) 0 0);
 }
   
-.dropdown:hover .dropdown-content {
-    display: block; 
+.dropdown:hover .dropdown-content 
+{
+  display: block; 
 }
   
-  .dropdown:hover .dropbtn, header nav a:hover{ 
-    text-decoration: underline;
+.dropdown:hover .dropbtn, header nav a:hover
+{ 
+  text-decoration: underline;
 }
 
   /*-----------------OM MEDOVA---MEDOVA TE------------------------------------------------------------------------------- */
 
 main
 {
-    background-color: #EAE1D9;
-    padding-left: 80px;
-    padding-right: 80px;
+  background-color: #EAE1D9;
+  padding-left: 10%;
+  padding-right: 10%;
 }
 
 main h1
-{   padding-top: 60px;
-    text-align: center;
-    font-family: 'Josefin Sans', sans-serif;
-    font-weight:1000;
-    font-size: 6vw;
-    text-transform: uppercase;
-    color: black;
+{   
+  padding-top: 7%;
+  text-align: center;
+  font-family: 'Josefin Sans', sans-serif;
+  font-weight:bolder;
+  font-size: 6vw;
+  text-transform: uppercase;
+  color: black;
 }
 
 main h2
-{   margin-top: -25px;
-    text-align: center;
-    font-family: 'Josefin Sans', sans-serif;
-    font-size: 3.5vw;
-    text-transform: uppercase;
-    color: black;
-    font-weight: lighter;
+{   
+  margin-top: -2%;
+  text-align: center;
+  font-family: 'Josefin Sans', sans-serif;
+  font-size: 3.5vw;
+  text-transform: uppercase;
+  color: black;
+  font-weight: lighter;
 }
 
 .flexcontainer div
 {
-    padding-top: 50px;
-    display: flex;
-    justify-content: center;
-    flex-direction: row;
-
-
+  padding-top: 5%;
+  display: flex;
+  justify-content: center;
+  flex-direction: row;
 }
 
 .flexcontainer p
 {
-    text-align: center;
-    font-family: 'Josefin Sans', sans-serif;
-    font-size: 2vw;
-    width: 45%;
-   max-height: 400px;
-   line-height: 40px;
-
+  text-align: center;
+  font-family: 'Josefin Sans', sans-serif;
+  font-size: 2vw;
+  width: 45%;
+  line-height: 120%;
 
 }
+
 .flexcontainer div div
-{width: 5%;}
+{
+  width: 5%;
+}
 
 .flexcontainer img
 {
-width: 50%;
-height: 400px;}
+  width: 50%;
+}
 
 #indhold
-{text-align: left;}
+{
+  text-align: left;
+}
 
 #tal
-{text-align: right;}
+{
+  text-align: right;
+}
  
 #naering 
 {
-padding-top: 10px;
-padding-bottom: 10px;
-display: flex;
-justify-content: center;
-width: 450px;
-height: 200px;
-margin-left: auto;
-margin-right: auto;
-background-color:#e1d2bb;
+  padding-top: 2%;
+  padding-bottom: 2%;
+  display: flex;
+  justify-content: center;
+  width: 50vh;
+  height: 25vh;
+  background-color:#e1d2bb;
+  margin: auto;
+  padding: auto;
+
+
 }
 
 #naeringoverskrift
@@ -164,24 +172,18 @@ background-color:#e1d2bb;
   text-align: center;
   font-size: 2.5vw;
   font-family: 'Orienta', sans-serif;
-  margin-top: 30px;
-  margin-bottom: 20px;
-
-
+  margin-bottom: 3%;
 }
 #naering p
 {
-  
   font-size: 1.7vw;
   font-family: 'Orienta', sans-serif;
   padding:5px;
-
 }
 
 #formaal p
 {
-  margin-top: 40px;
-
+  margin-top: 5%;
   text-align: center;
   font-size: 1.8vw;
   font-family: 'Josefin Sans', sans-serif;
@@ -190,77 +192,63 @@ background-color:#e1d2bb;
 
 #formaal div
 {
-  padding-top: 20px;
-  padding-bottom: 50px;
-
+  padding-top: 2%;
+  padding-bottom: 5%;
   display: flex;
   justify-content: center;
 }
+
 #formaal img
 {
-display: block;
-margin: auto;
-padding:auto;
-width:60%;
+  display: block;
+  margin: auto;
+  padding:auto;
+  width:60%;
 }
 
 
   /*-----------------OM MEDOVA---RELANCERING------------------------------------------------------------------------------- */
 
-  .mindreh1
-  {
-    font-size: 4vw;
-  }
+.mindreh1
+{
+  font-size: 4vw;
+}
 
-  #istepic
-  {
-    padding-top: 30px;
-    display: block;
-    margin: auto;
-    padding:auto;
-    width: 40%;
-    padding-bottom: 30px;
+main h3
+{   
+  padding-top: 20px;
+  padding-bottom: 50px;
+  text-align: center;
+  font-family: 'Josefin Sans', sans-serif;
+  font-size: 1.7vw;
+  color: black;
+  font-weight: lighter;
+  padding-left: 20%;
+  padding-right: 20%;
+  line-height: 1.2;
+}
 
-  }
-
-  
-  main h3
-  {   
-    padding-top: 20px;
-    padding-bottom: 50px;
-    text-align: center;
-    font-family: 'Josefin Sans', sans-serif;
-    font-size: 1.7vw;
-    color: black;
-    font-weight: lighter;
-    padding-left: 20%;
-    padding-right: 20%;
-    line-height: 1.2;
-  }
-
-  #refleks 
-  {
-    display: block;
-    margin: auto;
-    padding: auto;
-    align-content: center;
-    width: 70%;
-  }
+#refleks 
+{
+  display: block;
+  margin: auto;
+  padding: auto;
+  width: 70%;
+}
 
 #tekstboks
 {
   text-align: center;
-  width: 900px;
   margin: auto;
   padding: auto;
   margin-top: -70px;
+  width: 100vh;
 }
 
 #tekstboks p
 {
   font-size: 1.7vw;
   font-family: 'Josefin Sans', sans-serif;
-  padding: 20px;
   line-height: 1.6;
 }
 
@@ -269,29 +257,39 @@ width:60%;
 
   width: 80%;
   display: block;
-    margin: auto;
-    padding: auto;
-    padding-bottom: 60px;
+  margin: auto;
+  padding: auto;
+  padding-bottom: 5%;
 
 }
 
   /*-----------------HJEMMELAVET ISTE------------------------------------------------------------------------------- */
 
-#isteingrediens
+  #istepic
 {
-  
+  padding-top: 3%;
+  display: block;
   margin: auto;
-  padding: auto;
-  width: 50vh;
-  background-color:#e1d2bb;
-  height: 35vh;
+  padding:auto;
+  width: 40%;
+  padding-bottom: 3%;
 }
 
-#isteingrediens h4, #bubbleingrediens h4
+#isteingrediens
 {
-  padding-top: 20px;
+  margin: auto;
+  padding: auto;
+  background-color:#e1d2bb;
+  height: 41vh;
+  width: 45%;
+
+}
+
+#isteingrediens h4
+{
+  padding-top: 5%;
   text-align: center;
-  font-size:1.7vw;
+  font-size:1.8vw;
   color: black;
   letter-spacing: 1px;
   font-family: 'Playfair Display', serif;
@@ -303,56 +301,79 @@ width:60%;
   text-align: left;
   justify-content: center;
   list-style-type: circle;
-  gap:20px;
 }
 
 #isteingrediens ul li, #bubbleingrediens ul li
 {
   font-family: 'Josefin Sans', sans-serif;
-  font-size: 1.5vw;
-  margin: 10px 0;
+  font-size: 1.6vw;
+  margin: 3% 0;
 }
 
 
 #isteingrediens div
 {
-
   display: flex;
   justify-content: center;
-  padding-bottom: 20px;
+  padding-bottom: 5%;
 }
-#isteingrediens h2, #bubbleingrediens h2
+
+#isteingrediens h2
 {
-  padding: 5px;
+  padding: 2%;
   font-size: 1.2vw;
-  padding-bottom: 20px;
-  margin-top: 5px;
+  padding-bottom: 5%;
+  margin-top: 2%;
 
 }
 
 #howtoiste
 {
-  padding-top: 30px;
+
+  width: 45%;
+
 }
 
-#howtoiste ul li, #howtoboba ul li
+#mellemrum
 {
-  margin:0 0px 30px 0;   
+  width: 10%;
+}
+
+
+#howtoiste ul li
+{
+  height: 7vh;
   font-family: 'Josefin Sans', sans-serif;
   font-size: 1.8vw;
   list-style-type: decimal;
   font-weight: bold;
+  line-height: 1.2;
 }
 
 
 #alt
 { 
   display: flex;
-  padding-bottom:80px;
-  gap:-40px;
+  justify-content: center;
+  padding-bottom:8%;
 }
   /*-----------------BOBA ------------------------------------------------------------------------------- */
+#bubbleingrediens h4
+{ 
+  padding-top: 2%;
+  text-align: center;
+  font-size:2vw;
+  color: black;
+  letter-spacing: 1px;
+  font-family: 'Playfair Display', serif;
+}
 
+ #bubbleingrediens h2
+{
+  font-size: 1.2vw;
+  padding-bottom: 2%;
+  padding-top: 3%;
+}
 #bubbleingrediens
 {
   text-align: center;
@@ -371,78 +392,184 @@ width:60%;
 #ingrediensliste 
 {
   display: flex;
-justify-content: space-evenly;
-padding-bottom: 20px;
+  justify-content: space-evenly;
+  padding-bottom: 20px;
 }
 
 #howtoboba 
 {
-  padding-top:50px;
+  padding-top:5%;
   width: 100vh;
   display: block;
   text-align: left;
   padding: auto;
   margin:auto;
-  padding-bottom:50px;
-
+  padding-bottom:5%;
+}
+#howtoboba ul li
+{
+  font-family: 'Josefin Sans', sans-serif;
+  font-size: 1.8vw;
+  list-style-type: decimal;
+  font-weight: bold;
+  line-height: 2;
 }
 
 #howtoboba p
 {
-
-  margin:0 0px 30px 0;   
+  line-height: 1.2;
   font-family: 'Josefin Sans', sans-serif;
   font-size: 1.8vw;
   text-align: center;
+  padding:3%
 }
   /*---------------GIVEAWAY------------------------------------------------------------------------------ */
 
 
 #konkurrencebody
 {
-  background-image: url("images/konkurrencebg.png") !important;
+  background-image: url("images/konkurrencebg.png");
+  position: absolute;
   text-align: center;
+  color: white;
+  background-repeat: no-repeat;
+}
+#tak h1 
+{ 
+  padding-top: 25%;
+  text-align: center;
+  font-size: 6vw;
 }
 
-
-#konkurrence h1
+.konkurrence h1
 {
   color: white;
-  font-weight: 600;
-  font-size: 8vw;
+  font-weight: bold;
+  font-size: 11vw;
   text-transform: uppercase;
   font-weight: bold;
-
+  transition: 0.2s;
+  font-family: 'Kanit', sans-serif;
+  margin-top: -9%;
+  margin-bottom: 2%;
 }
 
-#konkurrence h2
+.konkurrence h1:hover /*https://developer.mozilla.org/en-US/docs/Web/CSS/-webkit-text-stroke*/
+{
+  -webkit-text-stroke: 2px #FFF;
+  color: transparent;
+}
+
+.konkurrence h2
 {
   color: white;
-  font-weight: 600;
-  font-size: 4vw;
+  font-weight: bold;
+  font-size: 3.5vw;
   text-transform: uppercase;
+  margin-bottom: 2%;
+  line-height: 1.5;
+}
 
+.konkurrence p
+{
+  font-family: 'Josefin Sans', sans-serif;
+  font-size: 2vw;
+  width: 85%;
+  text-align: center;
+  display: block;
+  margin: auto;
+  padding: auto;
+  line-height: 1.3;
+}
+
+input[type=text] 
+{
+  width: 50vh;
+  height: 7vh;
+  padding: 12px 20px;
+  margin: 8px 0;
+  display: inline-block;
+  border: 1px solid #ccc;
+  border-radius: 4px;
+  box-sizing: border-box;
+  font-size: 1.2vw;
+  font-family: Arial, Helvetica, sans-serif;
+}
+
+.konkurrence h5
+{
+  padding: 30px;
+  font-family: 'Josefin Sans', sans-serif;
+  font-size: 2vw;
+}
+
+#spørgsmål
+{
+  width: 50vh;
+  height: 10vh;
+  font-family: Arial, Helvetica, sans-serif;
+}
+
+
+button:hover {
+  background-color:white;
+  background-image: linear-gradient(rgb(0 0 0/10%) 0 0);
+} 
+
+button
+{
+  font-family: Arial, Helvetica, sans-serif;
+  width: 30vh;
+  background-color: white;
+  padding: 14px 20px;
+  margin: 8px 0;
+  border: none;
+  border-radius: 4px;
+  cursor: pointer;
+  font-size: 1.5vw;
+}
+
+#indtast p
+{
+  margin-top: 20px;
+  font-family: Arial, Helvetica, sans-serif;
+  font-size: 1vw;
+  margin-bottom: 10%;
 }
 
 /*------------------------------------------FOOTER---------------------------------------------------*/
 footer
 {
-    margin-top: 10vh;
-    margin-bottom:10vh;
-    background-color: white;
-    text-align: center;
+  display: flex;
+  justify-content: center;
+  height: 350px;
+  background-color: white;
+  text-align: center;
+  align-items: center;
+}
 
-}
 footer a
-{
-    text-decoration: none;
-    font-size: 2vw;
-    font-family: 'Dosis', sans-serif;
-    color: black;
-    text-transform: uppercase;
-    font-family: 'Dosis', sans-serif;
-    line-height: 8vh;
+{  
+  text-decoration: none;
+  font-size: 2vw;
+  font-family: 'Dosis', sans-serif;
+  color: black;
+  text-transform: uppercase;
+  font-family: 'Dosis', sans-serif;
+  line-height: 8vh;
 }
+
+#konkurrencefooter
+{  
+  background:none;
+  color: white;
+  padding-top: -5%;
+}
+#konkurrencefooter a
+{ 
+  color: white;
+}
+
 /*--------------------------------------------------------------------------------------------------------*/
 
 
