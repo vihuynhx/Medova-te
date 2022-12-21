@@ -11,8 +11,134 @@
     <link href="https://fonts.googleapis.com/css2?family=Dosis&display=swap" rel="stylesheet">
     <link rel="shortcut icon" type="image/ico" href="images/medovalogo.ico">
     <script src="https://kit.fontawesome.com/f986eab603.js" crossorigin="anonymous"></script>
+
+    <style>
+      body
+      {
+          background-color: #EAE1D9;
+          margin: 0;
+          padding: 0;
+          box-sizing: border-box;
+          user-select: none;
+          font-family: 'Dosis', sans-serif;
+          text-transform: uppercase;  
+      }
+      
+      .button
+      {
+          font-size: 6vw;
+      }
+      
+      nav
+      {
+          position: absolute;
+          top: 20%;
+          left: 50%;
+          transform: translate(-50%, -50%);
+          background: black;
+          width: 40vh;
+          height: 5vh;
+          padding: 2% 3%;
+          border-radius: 5px;
+          align-items: center;
+          text-align: left;
+      }
+      
+      nav label
+      {
+        color: white;
+        font-size: 3vw;
+        display: block;
+        cursor: pointer;
+      }
+      
+      nav ul{
+        position: absolute;
+        background: black;
+        list-style: none;
+        top: 75px;
+        left: 0;
+        width: 100%;
+        border-radius: 5px;
+        display: none;
+      }
+      
+      [id^=btn]:checked + ul
+      {
+        display: block;
+      }
+      
+      nav ul li{
+        line-height: 40px;
+        padding: 8px 20px;
+        cursor: pointer;
+        border-bottom: 1px solid white;
+      }
+      
+      nav ul li a, nav li label
+      {
+        color: white;
+        text-decoration: none;
+        display: block;
+        font-size: 4vw;
+      }
+      nav ul li a:hover,
+      nav ul li label:hover
+      {
+          color: #c8b496;
+      
+      }
+      nav ul ul{
+        position: static;
+      }
+      nav ul ul li{
+        line-height: 30px;
+        padding-left: 30px;
+        border-bottom: none;
+      }
+      nav ul ul li a{
+        color: #d6d1d1;
+        font-size: 3vw;
+      }
+      label i, nav ul li i{
+        font-size: 20px;
+        float: right;
+        margin-top: 10px;
+        padding: 0 10px;
+        transition: 0.5s;
+      }
+      
+      
+      input{
+        display: none;
+      } 
+      
+      div
+      {
+        margin-right: 5%;
+        display: flex;
+        justify-content: space-between;
+      }
+      
+      div img
+      {
+        width: 24.5%;
+        margin-top: 3%;
+      }
+      
+      div i 
+      {  margin-top: 40%;
+        font-size: 60px;
+        text-decoration: none;
+        color: black;
+      }
+      @media screen and (min-width: 700px)
+      {
+      body{display: none;}
+      }
+      </style>
 </head>
-<body>
+<body>  <!--https://www.codingnepalweb.com/drop-down-menu-bar-with-submenu/-->
     <div>
       <a href="index.html"><img src="images/sortlogolille.png" alt="logo"></a>
       <a href="index.html"><i class="fa-solid fa-xmark"></i></a>
@@ -43,128 +169,3 @@
 </body>
 </html>
 
-<style>
-body
-{
-    background-color: #EAE1D9;
-    margin: 0;
-    padding: 0;
-    box-sizing: border-box;
-    user-select: none;
-    font-family: 'Dosis', sans-serif;
-    text-transform: uppercase;  
-}
-
-.button
-{
-    font-size: 6vw;
-}
-
-nav
-{
-    position: absolute;
-    top: 20%;
-    left: 50%;
-    transform: translate(-50%, -50%);
-    background: black;
-    width: 40vh;
-    height: 5vh;
-    padding: 2% 3%;
-    border-radius: 5px;
-    align-items: center;
-    text-align: left;
-}
-
-nav label
-{
-  color: white;
-  font-size: 3vw;
-  display: block;
-  cursor: pointer;
-}
-
-nav ul{
-  position: absolute;
-  background: black;
-  list-style: none;
-  top: 75px;
-  left: 0;
-  width: 100%;
-  border-radius: 5px;
-  display: none;
-}
-[id^=btn]:checked + ul{
-  display: block;
-}
-
-nav ul li{
-  line-height: 40px;
-  padding: 8px 20px;
-  cursor: pointer;
-  border-bottom: 1px solid white;
-}
-
-nav ul li a, nav li label
-{
-  color: white;
-  text-decoration: none;
-  display: block;
-  font-size: 4vw;
-}
-nav ul li a:hover,
-nav ul li label:hover
-{
-    color: #c8b496;
-
-}
-nav ul ul{
-  position: static;
-}
-nav ul ul li{
-  line-height: 30px;
-  padding-left: 30px;
-  border-bottom: none;
-}
-nav ul ul li a{
-  color: #d6d1d1;
-  font-size: 3vw;
-}
-label i, nav ul li i{
-  font-size: 20px;
-  float: right;
-  margin-top: 10px;
-  padding: 0 10px;
-  transition: 0.5s;
-}
-
-
-input{
-  display: none;
-} 
-
-div
-{
-  margin-right: 5%;
-  display: flex;
-  justify-content: space-between;
-}
-
-div img
-{
-  width: 24.5%;
-  margin-top: 3%;
-}
-
-div i 
-{  margin-top: 40%;
-  font-size: 60px;
-  text-decoration: none;
-  color: black;
-}
-@media screen and (min-width: 700px)
-{
-body{display: none;}
-}
-
-
-</style>
